@@ -58,3 +58,6 @@ Start the application:
 ```console
 uvicorn main:app --port 8000 --reload
 ```
+
+
+![Project structure](api.png)
