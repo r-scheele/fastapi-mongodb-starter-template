@@ -1,6 +1,6 @@
 # FastAPI and MongoDB project template
 
-A simple starter for building RESTful APIs with FastAPI and MongoDB.
+A simple starter template for building robust RESTful APIs with FastAPI and MongoDB.
 
 
 ## Features
