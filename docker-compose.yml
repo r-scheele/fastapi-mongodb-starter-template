@@ -1,0 +1,19 @@
+version: '3'
+services:
+  cache:
+    image: "redis:6.2-alpine"
+    ports:
+      - "6383:6379"
+  pubsub:
+    image: "redis:6.2-alpine"
+    ports:
+      - "6384:6380"
+  mongo:
+    image: "mongo"
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: pass
+  # api:
+
