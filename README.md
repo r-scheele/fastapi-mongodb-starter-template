@@ -18,6 +18,11 @@ Access tokens are saved in localStorage whilst refresh token are stored inside s
 
 There are two redis instances used for caching user data in order improve the performance of the API, Rate limiting of API calls with redis to prevent brute force attacks and Pub/Sub for sending messages/Notifications to the frontend.
 
+### Mail
+
+The boilerplate uses [FastAPI Mail](https://sabuhish.github.io/fastapi-mail/) to send emails to users, including email verification, password reset, etc.
+The API also supports custom email templates, which can be used to send emails with custom HTML content. You can use Mailtrap to test emails locally, and SendGrid to send emails in production.
+
 ## Installation
 
 The API application can be installed by cloning the repository and running the following commands:
